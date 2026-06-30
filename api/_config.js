@@ -9,24 +9,17 @@ const CONFIG_LOCAL = {
   // URL base da AvisaAPI
   avisaApiBaseUrl: 'https://www.avisaapi.com.br/api',
 
-  // COLOQUE SEU TOKEN AQUI PARA TESTAR LOCALMENTE.
-  // Exemplo: avisaApiToken: 'SEU_TOKEN_AQUI',
+
   avisaApiToken: 'VTIo3VZqOmCM2uE0vDHqpfmgy3AZPX8C2fMT8Hcjhp5p4lGvWjyDRKlp4lM2',
 
-  // Número que vai receber os avisos no WhatsApp.
-  // Você pediu: 81993093150.
-  // Se não enviar, use com DDI: 5581993093150
-  adminWhatsapp: '81993093150',
 
-  // Segredo usado para embaralhar os prêmios por usuário.
-  // Pode trocar por qualquer texto grande.
+  adminWhatsapp: '81992991173',
+
+
   sorteioSecret: 'ponto-amigo-teste-local-2026',
 
-  // Nome da campanha
   nomeCampanha: 'TIROU GANHOU DA PONTO AMIGO',
 
-  // true = tenta enviar pela AvisaAPI.
-  // false = não envia WhatsApp, apenas mostra a mensagem no terminal.
   enviarWhatsapp: true,
 };
 
@@ -44,43 +37,6 @@ const CONFIG = {
 // ============================================================
 // USUÁRIOS PERMITIDOS
 // ============================================================
-// Você pode criar quantos quiser.
-// Entregue o campo "codigo" para cada pessoa.
-//
-// premioFixo é opcional:
-// - Se colocar premioFixo: 'PIX DE R$ 20,00', aquele usuário sempre ganha esse prêmio.
-// - Se deixar sem premioFixo, o prêmio depende da carta escolhida, com posição
-//   embaralhada por usuário.
-
-// const USUARIOS = [
-//   {
-//     codigo: 'PA-001',
-//     nome: 'Participante 1',
-//     contato: '81999999999',
-//     ativo: true,
-//     // premioFixo: 'PIX DE R$ 20,00',
-//   },
-//   {
-//     codigo: 'PA-002',
-//     nome: 'Participante 2',
-//     contato: '81988888888',
-//     ativo: true,
-//   },
-//   {
-//     codigo: 'PA-003',
-//     nome: 'Participante 3',
-//     contato: '81977777777',
-//     ativo: true,
-//   },
-//   {
-//     codigo: 'PA-004',
-//     nome: 'Participante 4',
-//     contato: '81966666666',
-//     ativo: true,
-//   },
-// ];
-
-
 
 const USUARIOS = [
   {
@@ -91,24 +47,6 @@ const USUARIOS = [
   },
 
 ];
-
-// ============================================================
-// PRÊMIOS
-// ============================================================
-// Para adicionar mais cartas, basta adicionar mais prêmios aqui.
-// O site aumenta automaticamente a quantidade de cartas.
-
-// const PREMIOS = [
-//   { nome: 'PIX DE R$ 20,00', ativo: true },
-//   { nome: 'PIX DE R$ 10,00', ativo: true },
-//   { nome: 'PIX DE R$ 5,00', ativo: true },
-//   { nome: 'PIX DE R$ 15,00', ativo: true },
-//   { nome: 'PIX DE R$ 12,00', ativo: true },
-//   { nome: 'PIX DE R$ 25,00', ativo: true },
-//   { nome: 'PIX DE R$ 30,00', ativo: true },
-//   { nome: 'PIX DE R$ 100,00', ativo: true },
-// ];
-
 
 
 const PREMIOS = [
