@@ -1,12 +1,7 @@
-// ============================================================
-// CONFIGURAÇÕES DO JOGO - PONTO AMIGO
-// ============================================================
-// Para TESTAR LOCAL, você pode colocar tudo direto aqui.
-// Quando for subir no GitHub/Vercel, NÃO deixe seu token real exposto
-// em repositório público. O ideal no Vercel é usar Environment Variables.
+
 
 const CONFIG_LOCAL = {
-  // URL base da AvisaAPI
+
   avisaApiBaseUrl: 'https://www.avisaapi.com.br/api',
 
 
