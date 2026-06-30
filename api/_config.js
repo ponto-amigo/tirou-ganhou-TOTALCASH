@@ -35,8 +35,8 @@ const CONFIG = {
 
 const USUARIOS = [
   {
-    codigo: '1234',
-    nome: 'TESTE',
+    codigo: '12345',
+    nome: 'TESTEE',
     contato: '',
     ativo: true,
   },
