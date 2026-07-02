@@ -83,7 +83,7 @@ function criarCartas(total) {
     carta.innerHTML = `
       <div class="carta-inner">
         <div class="carta-face carta-verso">
-          <img src="logo-ponto-amigo.png" class="logo-carta" alt="Ponto Amigo" />
+          <img src="totalcash.png" class="logo-carta" alt="Total Cash" />
           <div class="numero-carta">?</div>
           <div class="texto-carta">Carta ${numeroVisual}</div>
         </div>
