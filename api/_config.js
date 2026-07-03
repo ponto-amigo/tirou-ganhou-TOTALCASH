@@ -35,8 +35,8 @@ const CONFIG = {
 
 const USUARIOS = [
   {
-    codigo: '1234567',
-    nome: 'TESTEE',
+    codigo: '10274',
+    nome: 'VENDEDOR EUZIRA',
     contato: '',
     ativo: true,
   },
@@ -98,8 +98,8 @@ const PREMIOS = [
   { nome: 'PIX DE R$ 20,00', ativo: true },
   { nome: 'PIX DE R$ 20,00', ativo: true },
   { nome: 'PIX DE R$ 20,00', ativo: true },
-  { nome: 'PIX DE R$ 20,00', ativo: true },
-  { nome: 'PIX DE R$ 20,00', ativo: true },
+  
+  
 ];
 
 
